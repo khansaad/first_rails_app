@@ -25,7 +25,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 425px;
+    height: 500px;
 }
 #home-container{
     margin-top: 25px;
@@ -34,7 +34,16 @@ body {
   flex: 1 0 auto;
   background-color: lightgrey;
 }
-
+.bg-info {
+  background-color: #325c4e !important;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#subtext{
+  font-size: larger;
+}
 #sticky-footer {
   flex-shrink: none;
 }
